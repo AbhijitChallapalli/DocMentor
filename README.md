@@ -15,6 +15,7 @@ This repository contains a Python application built with Streamlit that allows u
 2. Set up your environment variables:
 
    `OPENAI_API_KEY`: Your OpenAI API key for using models like GPT.
+   
    `HUGGINGFACEHUB_API_TOKEN`: Your Hugging Face API token for accessing models on Hugging Face Hub.
 
    OPENAI_API_KEY=your_openai_api_key_here
