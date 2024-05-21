@@ -8,8 +8,10 @@ This repository contains a Python application built with Streamlit that allows u
 
 1. Clone this repository:
    
-   git clone <repository-url>
-   cd <repository-name>
+   ```bash
+   git clone https://github.com/AbhijitChallapalli/DocMentor
+
+   ```
    
 
 2. Set up your environment variables:
@@ -45,3 +47,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Thanks to the developers and contributors of Streamlit, PyPDF2, OpenAI, and Hugging Face for making their tools available.
 Special thanks to the LangChain community for their valuable tools and contributions to the language model integration.
+Here's a structured README file for your GitHub repository that describes your project. This README includes sections like Project Title, Description, Installation, Usage, Contributing, License, and Acknowledgements. You can adjust or expand each section based on your specific needs or any additional information you might want to include.
