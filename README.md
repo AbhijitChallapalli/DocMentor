@@ -16,18 +16,19 @@ This repository contains a Python application built with Streamlit that allows u
 
 2. Set up your environment variables:
 
+   ```bash
    `OPENAI_API_KEY`: Your OpenAI API key for using models like GPT.
    
    `HUGGINGFACEHUB_API_TOKEN`: Your Hugging Face API token for accessing models on Hugging Face Hub.
-
-   OPENAI_API_KEY=your_openai_api_key_here
-   HUGGINGFACEHUB_API_TOKEN=your_huggingfacehub_api_token_here
+   ```
 
    You can store these keys in a `.env` file in the root directory of your project:
 
    To run this project, you need to have Python installed on your machine (Python 3.8+ recommended). You can install the required dependencies with pip:
-
+ 
+   ```bash
    pip install -r requirements.txt
+   ``` 
 
 3. Run the application:
 
