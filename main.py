@@ -20,7 +20,7 @@ file = st.file_uploader("Upload a PDF file", type='pdf')
 
 if file is not None:
     reader = PdfReader(file)
-    file_name = file.name[:-4]  # Remove the .pdf extension
+    file_name = file.name[:-4]
     text = ""
     for page in reader.pages:
         text += page.extract_text()
@@ -38,7 +38,7 @@ if file is not None:
         # Using HuggingFace Instruct model
         response = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
         # Storing in the FAISS vector database and also into a pickle file with GPU support
-        vector_store = FAISS.from_texts(chunks, embedding=response, use_gpu=True)
+        vector_store = FAISS.from_texts(chunks, embedding=response)
         with open(pickle_file, "wb") as file:
             pickle.dump(vector_store, file)
 
