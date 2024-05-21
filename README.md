@@ -32,8 +32,10 @@ This repository contains a Python application built with Streamlit that allows u
 
 3. Run the application:
 
+   ```bash
    streamlit run main.py
-
+   ```
+   
 4. This opens your web browser with a local host. Upload a PDF file and enter queries to interact with the text extracted from the PDF.
 
 ## Contributing
